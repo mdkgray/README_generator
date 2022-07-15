@@ -38,7 +38,6 @@ function generateMarkdown(data) {
 
   ${data.title}
   
-  ![badge](https://img.shields.io/badge/license-${data.renderLicense}-brightgreen)
   ${renderLicense(data.license)}
 
   #Description

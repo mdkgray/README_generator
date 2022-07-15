@@ -185,7 +185,7 @@ const promptUser = () => {
 
 const init = () => {
     promptUser()
-    .then((data) => fs.writeFileSync('./generated/generated_README.md', generateMarkdown(data)))
+    .then((data) => fs.writeFileSync('./generated_README.md/README.md', generateMarkdown(data)))
     .then(() => console.log('Successfully generated README.md file!'))
     .catch((err) => console.log(err));
 };
