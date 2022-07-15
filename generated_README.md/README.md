@@ -1,45 +1,45 @@
 
-# Project Title
+  # Project Title
 
-README generator
+  Coding For The World 
+  
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+  # Description
 
-# Description
+  A template to create README.md files
 
-A tool to create a README.md file
+  # Table of Contents
 
-# Table of Contents
+  * [Installation](#Installation)
+  * [Usage](#Usage)
+  * [License](#License)
+  * [Contributing](#Contributing)
+  * [Tests](#Tests)
+  * [Questions](#Questions)
 
-[Installation](#Installation)
-[Usage](#Usage)
-[License](#License)
-[Contributing](#Contributing)
-[Tests](#Tests)
-[Questions](#Questions)
+  # Installation 
 
-# Installation 
+  Use npm install
 
-npm install
+  # Usage
 
-# Usage
+  Run node index.js, then start answering questions 
 
-node index.js, then start answering the questions 
+  # License
 
-# License
+  Apache 2.0
 
-MIT
+  # Contributing
 
-# Contributing
+  Fork the repo
 
-Fork the repo then start coding
+  # Tests
 
-# Tests
+  Test using Jest 
 
-Test using Jest 
+  # Questions
 
-# Questions
-
-### GitHub: mdkgray
-
-### Email: mdkulen@gmail.com
+  ### GitHub: mdkgray
+  
+  ### Email: mdkulen@gmail.com
