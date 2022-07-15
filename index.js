@@ -14,7 +14,7 @@ function validateUserInput(value) {
     } else {
         return 'Please enter a response to the question.';
     }
-}
+};
 
 // function to return license badge and link for README.md file
 function renderLicense(value) {
@@ -33,7 +33,7 @@ function renderLicense(value) {
     } else if (value === 'Mozilla') {
         return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
     }
-}
+};
 
 // TODO: Create an array of questions for user input
 const questions = [
