@@ -75,7 +75,9 @@ function generateMarkdown(data) {
 
   # Questions
 
-  ### GitHub: ${data.gitUserName}
+  ### For further information contact using the following
+
+  ### GitHub: (https://github.com/${data.gitUserName})
   
   ### Email: ${data.email}
 `;

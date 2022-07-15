@@ -1,13 +1,13 @@
 
   # Project Title
 
-  Coding For The World 
+  README super template
   
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
 
   # Description
 
-  A template to create README.md files
+  A README template
 
   # Table of Contents
 
@@ -20,26 +20,28 @@
 
   # Installation 
 
-  Use npm install
+  npm install
 
   # Usage
 
-  Run node index.js, then start answering questions 
+  Fork the repo and start coding
 
   # License
 
-  Apache 2.0
+  Mozilla
 
   # Contributing
 
-  Fork the repo
+  Fork and start coding
 
   # Tests
 
-  Test using Jest 
+  Test with Jest
 
   # Questions
 
-  ### GitHub: mdkgray
+  ### For further information contact using the following
+
+  ### GitHub: (https://github.com/mdkgray)
   
   ### Email: mdkulen@gmail.com
