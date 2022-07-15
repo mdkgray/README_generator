@@ -1,13 +1,13 @@
 
   # Project Title
 
-  dd
+  Data Science Project 1
   
-  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
   # Description
 
-  dd
+  This is a project created by a team of 5.
 
   # Table of Contents
 
@@ -20,28 +20,28 @@
 
   # Installation 
 
-  dd
+  Install here
 
   # Usage
 
-  dd
+  Use the application as intended
 
   # License
 
-  Apache 2.0
+  Eclipse Public License 1.0
 
   # Contributing
 
-  dd
+  5
 
   # Tests
 
-  dd
+  Test yo heart out 
 
   # Questions
 
-  ### For further information contact using the following
+  ### For further information contact using the following:
 
-  #### GitHub: [mdkgray](https://github.com/mdkgray)
+  #### GitHub: [gillo](https://github.com/gillo)
   
-  #### Email: mdkulen@gmail.com
+  #### Email: gillo@gillo.co
