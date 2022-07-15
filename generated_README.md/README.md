@@ -41,5 +41,5 @@ Test using Jest
 # Questions
 
 ### GitHub: mdkgray
-  
+
 ### Email: mdkulen@gmail.com
