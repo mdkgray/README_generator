@@ -1,13 +1,13 @@
 
   # Project Title
 
-  README super template
+  dd
   
-  [![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   # Description
 
-  A README template
+  dd
 
   # Table of Contents
 
@@ -20,28 +20,28 @@
 
   # Installation 
 
-  npm install
+  dd
 
   # Usage
 
-  Fork the repo and start coding
+  dd
 
   # License
 
-  Mozilla
+  Apache 2.0
 
   # Contributing
 
-  Fork and start coding
+  dd
 
   # Tests
 
-  Test with Jest
+  dd
 
   # Questions
 
   ### For further information contact using the following
 
-  ### GitHub: (https://github.com/mdkgray)
+  #### GitHub: [mdkgray](https://github.com/mdkgray)
   
-  ### Email: mdkulen@gmail.com
+  #### Email: mdkulen@gmail.com
