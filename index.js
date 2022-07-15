@@ -16,6 +16,24 @@ function validateUserInput(data) {
     }
 };
 
+function renderLicense(data) {
+    if (data === 'Apache 2.0') {
+        return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
+    } else if ( data === 'Boost Software 1.0') {
+        return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
+    } else if (data === 'Eclipse Public License 1.0') {
+        return '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)';
+    } else if (data === 'GNU AGPL v3') {
+        return '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)';
+    } else if (data === 'GNU GPL v3') {
+        return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
+    } else if (data === 'MIT') {
+        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
+    } else if (data === 'Mozilla') {
+        return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
+    }
+};
+
 // TODO: Create an array of questions for user input for inquirer prompt
 const promptUser = () => {
     return inquirer.prompt([
@@ -185,6 +203,7 @@ const promptUser = () => {
 
 const init = () => {
     promptUser()
+    .then(data.renderLicense = renderLicense(data.license))
     .then((data) => fs.writeFileSync('generated_README.md', generateMarkdown(data)))
     .then(() => console.log('Successfully generated README.md file!'))
     .catch((err) => console.log(err));
