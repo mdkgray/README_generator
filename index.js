@@ -125,9 +125,14 @@ const questions = [
 // THEN I am taken to the corresponding section of the README
 
 
-
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Function to write README file
+function writeToFile(fileName, data) {
+    fs.writeToFile(fileName, generateMarkdown(data), function(err) {
+        if (err) {
+            return console.log(err);
+        }
+    });
+}
 
 // TODO: Create a function to initialize app
 function init() {}
