@@ -76,6 +76,7 @@ const promptUser = () => {
                 'Mozilla',
             ],
             validate: validateUserInput,
+            renderLicense,
         },
         {
             type: 'input',
@@ -220,7 +221,7 @@ const promptUser = () => {
 
 const init = () => {
     promptUser()
-    .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
+    .then((value) => fs.writeFileSync('README.md', generateMarkdown(value)))
     .then(() => console.log('Successfully generated README.md file!'))
     .catch((err) => console.log(err));
 };
