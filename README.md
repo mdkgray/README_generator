@@ -1,11 +1,11 @@
 
   #Project Title
-  ww
+  README generator 
   ![badge](https://img.shields.io/badge/license-undefined-brightgreen)
   undefined
 
   #Description
-  ww
+  README generator tool
 
   #Table of Contents
   [Installation](#Installation)
@@ -16,20 +16,20 @@
   [Questions](#Questions)
 
   #Installation 
-  ww
+  node index.js
 
   #Usage
-  ww
+  dd
 
   #License
   Apache 2.0
 
   #Contributing
-  ww
+  however
 
   #Tests
-  ww
+  install
 
   #Questions
-  ###GitHub: ww
+  ###GitHub: mdkgray
   ###Email: mdkulen@gmail.com

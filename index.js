@@ -76,7 +76,6 @@ const promptUser = () => {
                 'Mozilla',
             ],
             validate: validateUserInput,
-            renderLicense,
         },
         {
             type: 'input',
