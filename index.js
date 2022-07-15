@@ -8,30 +8,11 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // function to validate user input
-function validateUserInput(value) {
-    if (value != '') {
+function validateUserInput(data) {
+    if (data != '') {
         return true;
     } else {
         return 'Please enter a response to the question.';
-    }
-};
-
-// function to return license badge and link for README.md file
-function renderLicense(value) {
-    if (value === 'Apache 2.0') {
-        return '[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)';
-    } else if ( value === 'Boost Software 1.0') {
-        return '[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)';
-    } else if (value === 'Eclipse Public License 1.0') {
-        return '[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)';
-    } else if (value === 'GNU AGPL v3') {
-        return '[![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)';
-    } else if (value === 'GNU GPL v3') {
-        return '[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)';
-    } else if (value === 'MIT') {
-        return '[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)';
-    } else if (value === 'Mozilla') {
-        return '[![License: MPL 2.0](https://img.shields.io/badge/License-MPL_2.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)';
     }
 };
 
@@ -99,8 +80,8 @@ const promptUser = () => {
             type: 'input',
             name: 'email',
             message: 'What is your email address?',
-            validate: function(value) {
-                if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(value)) {
+            validate: function(data) {
+                if (/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(data)) {
                     return true;
                 } else {
                     return 'Not a valid email address. Please enter your email again.';
@@ -220,7 +201,7 @@ const promptUser = () => {
 
 const init = () => {
     promptUser()
-    .then((value) => fs.writeFileSync('README.md', generateMarkdown(value)))
+    .then((data) => fs.writeFileSync('README.md', generateMarkdown(data)))
     .then(() => console.log('Successfully generated README.md file!'))
     .catch((err) => console.log(err));
 };
