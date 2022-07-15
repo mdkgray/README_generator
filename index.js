@@ -35,7 +35,7 @@ function renderLicense(value) {
     }
 };
 
-// TODO: Create an array of questions for user input
+// TODO: Create an array of questions for user input for inquirer prompt
 const promptUser = () => {
     return inquirer.prompt([
         {
@@ -220,7 +220,7 @@ const promptUser = () => {
 
 const init = () => {
     promptUser()
-    .then((answers) => fs.writeFileSync('README_example', generateMarkdown(answers)))
+    .then((answers) => fs.writeFileSync('README.md', generateMarkdown(answers)))
     .then(() => console.log('Successfully generated README.md file!'))
     .catch((err) => console.log(err));
 };
