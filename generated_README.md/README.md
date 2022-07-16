@@ -1,11 +1,11 @@
 
-  # Test README
+  # README Generator 
   
-  [![License: AGPL v3](https://img.shields.io/badge/License-AGPL_v3-blue.svg)](https://www.gnu.org/licenses/agpl-3.0)
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   # Description
 
-  test
+  Tool to develop a README
 
   # Table of Contents
 
@@ -18,23 +18,25 @@
 
   # Installation 
 
-  tt
+  npm install
 
   # Usage
 
-  tt
+  Input information to generate README files 
 
   # License
 
-  GNU AGPL v3
+  Apache 2.0
+
+  #### For more information on the license, click the badge icon in the title section.
 
   # Contributing
 
-  tt
+  Fork the repo then start coding
 
   # Tests
 
-  tt
+  Test with Jest 
 
   # Questions
 
