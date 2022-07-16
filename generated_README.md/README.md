@@ -1,13 +1,13 @@
 
   # Project Title
 
-  Data Science Project 1
+  hello
   
-  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+  [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   # Description
 
-  This is a project created by a team of 5.
+  hh
 
   # Table of Contents
 
@@ -20,28 +20,28 @@
 
   # Installation 
 
-  Install here
+  ff
 
   # Usage
 
-  Use the application as intended
+  ff
 
   # License
 
-  Eclipse Public License 1.0
+  MIT
 
   # Contributing
 
-  5
+  ff
 
   # Tests
 
-  Test yo heart out 
+  ff
 
   # Questions
 
   ### For further information contact using the following:
 
-  #### GitHub: [gillo](https://github.com/gillo)
+  #### GitHub: [mdkgray](https://github.com/mdkgray)
   
-  #### Email: gillo@gillo.co
+  #### Email: mdkulen@gmail.com
