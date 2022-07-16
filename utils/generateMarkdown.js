@@ -49,6 +49,8 @@ function generateMarkdown(data) {
 
   ${data.license}
 
+  #### For more information on the license, click the badge icon in the title section.
+
   # Contributing
 
   ${data.contributing}
