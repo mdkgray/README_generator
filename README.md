@@ -33,6 +33,7 @@ Node.js
 - Including a package.json file with required dependencies using npm init.
 - Using the command line, install Inquirer package using npm install.
 
-## Link to demonstration video
+## Demonstration Video
 
-[Click here to view the video](https://)
+[Click here to view the video](https://drive.google.com/file/d/1jP7_K3KEfhxjn1dbmaNqU5AkIGiYfoYJ/view?usp=sharing)
+

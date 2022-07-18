@@ -1,11 +1,11 @@
 
-  # README Generator 
+  # README generator
   
   [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   # Description
 
-  Tool to develop a README
+  A tool to develop a README file
 
   # Table of Contents
 
@@ -18,11 +18,11 @@
 
   # Installation 
 
-  npm install
+  Use npm install to initiate the application
 
   # Usage
 
-  Input information to generate README files 
+  Answer questions to fill information into the README file
 
   # License
 
@@ -32,11 +32,11 @@
 
   # Contributing
 
-  Fork the repo then start coding
+  Fork the repo
 
   # Tests
 
-  Test with Jest 
+  Use Jest for future testing
 
   # Questions
 
