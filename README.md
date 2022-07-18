@@ -35,5 +35,5 @@ Node.js
 
 ## Demonstration Video
 
-[Click here to view the video](https://drive.google.com/file/d/1jP7_K3KEfhxjn1dbmaNqU5AkIGiYfoYJ/view?usp=sharing)
+[Click here to view the video](https://drive.google.com/file/d/1jP7_K3KEfhxjn1dbmaNqU5AkIGiYfoYJ/view)
 
