@@ -1,45 +1,38 @@
+# README.md Generator Tool
 
-# Project Title
+### By Mackenzie Gray
 
-README generator
+## Technologies Used 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+- JavaScript
+- Node.js
 
-# Description
+## Description 
 
-A tool to create a README.md file
+The motivation for this project was to create a tool to generate a README file. A developer can use this command-line application to quickly create a professional README file where the content of the README is populated from responses to questions about the project repository. 
 
-# Table of Contents
+## Installation
 
-[Installation](#Installation)
-[Usage](#Usage)
-[License](#License)
-[Contributing](#Contributing)
-[Tests](#Tests)
-[Questions](#Questions)
+The application will be invoked using the following command:
 
-# Installation 
+`node index.js`
 
-npm install
+## Outline of codebase writing 
 
-# Usage
+JavaScript:
+- Linking of the index.js file to the Inquirer package.
+- Linking of the index.js file to the Node.js fs module.
+- Creating variable to link index.js file and generateMarkdown.js file.
+- Writing function to validate the responses to the questions in the command-line application.
+- Writing function to include the array of questions to be shown in the command-line application through Inquirer module.
+- Writing of function to initialize the application and then use data to generate a README file.
+- Creating function to render license badge based on user input to be used in generated README file. 
+- Creating function to take data from user input and parse into generated README template.
 
-node index.js, then start answering the questions 
+Node.js
+- Including a package.json file with required dependencies using npm init.
+- Using the command line, install Inquirer package using npm install.
 
-# License
+## Link to demonstration video
 
-MIT
-
-# Contributing
-
-Fork the repo then start coding
-
-# Tests
-
-Test using Jest 
-
-# Questions
-
-### GitHub: mdkgray
-  
-### Email: mdkulen@gmail.com
+[Click here to view the video](https://)

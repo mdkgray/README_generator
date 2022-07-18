@@ -17,7 +17,7 @@ function renderLicense(data) {
   }
 };
 
-// TODO: Create a function to generate markdown for README
+// Function to generate README using data from user answers
 function generateMarkdown(data) {
   return `
   # ${data.title}

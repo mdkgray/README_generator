@@ -16,7 +16,7 @@ function validateUserInput(data) {
     }
 };
 
-// TODO: Create an array of questions for user input for inquirer prompt
+// Variable for promptUser function with array of questions
 const promptUser = () => {
     return inquirer.prompt([
         {
